@@ -1,9 +1,9 @@
 h1 {
 	text-align: center;
 	color: (0,0,0);
-	font-family: "georgia", serif;
+	font-family: georgia, serif;
 	font-size: 40px;
-	font-weight: normal;
+	font-weight: lighter;
 
 }
 
@@ -21,4 +21,5 @@ p {
 	font-style: italic;
 	font-weight: 600;
 	text-align: center;
+	font-family: georgia, serif;
 }
