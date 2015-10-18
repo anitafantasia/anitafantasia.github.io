@@ -28,7 +28,7 @@ p {
 }
 
 ul {
-	list-style: inside;
+	list-style: none;
 	font-family: georgia, serif;
 	font-style: italic;
 }
