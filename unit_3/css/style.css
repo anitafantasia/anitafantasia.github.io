@@ -2,7 +2,6 @@ h1 {
 	text-align: center;
 	color: (0,0,0);
 	font-family: georgia, serif;
-	font-style: italic;
 	font-size: 40px;
 	font-weight: 600;
 
@@ -24,4 +23,8 @@ p {
 	text-align: center;
 	font-family: georgia, serif;
 	font-size: 20px;
+}
+
+ul {
+	text-align: center;
 }
