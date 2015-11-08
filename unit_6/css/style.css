@@ -1,37 +1,85 @@
+
+
 nav {
-	background-color: white;
+	background-color: (255,255,255);
 	font-family: 'Raleway', sans-serif;
+	text-transform: Uppercase;
+	text-align: left;
 }
 
-a { 
-	background-color: white;
-	color: black;
+nav a { 
+	background-color: (255,255,255);
+	color: (0,0,0);
 	text-decoration: none;
 	display: block;
 	padding: 20px;
 	width: 200px;
+	text-align: left;
+	font-size: 16px;
 }
 
+img {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.gallery {
+	float: left;
+	width: 300px;
+	padding: 20px;
+	margin: 0;
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.column {
+	float: left;
+	width: 200px;
+	padding: 20px;
+	margin: 0;
+}
+
+#column1 {
+  background-color: (255,255,255);
+}
+
+#column2 {
+  background-color: (255,255,255);
+}
+
+#column3 {
+  background-color: (255,255,255);
+}
+
+#column4 {
+  background-color: (255,255,255);
+}
+
+
 h1 {
-	text-align: center;
+	text-align: left;
 	color: (0,0,0);
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	font-weight: normal;
 	text-transform: UPPERCASE;
 	letter-spacing: 2px;
+	padding: 40px;
 
 
 }
 
 body {
 	background-color: (255,255,255);
-	text-align: center;
+	text-align: left;
 }
 
 p {
 	color: (0,0,0);
-	text-align: center;
+	text-align: left;
 	font-family: 'Playfair Display', serif;
 	font-size: 16px;
 }
@@ -55,4 +103,13 @@ ul {
 a {
 	text-align: center;
 	font-size: 16px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
