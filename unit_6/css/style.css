@@ -18,45 +18,16 @@ nav a {
 	font-size: 16px;
 }
 
-img {
-	width: 300px;
-	display: block;
-	margin: 0 auto;
-}
+
 
 .gallery {
 	float: left;
 	width: 300px;
 	padding: 20px;
 	margin: 0;
-
-#container {
-  width: 960px;
-  margin: 0 auto;
+	clear: both;
 }
 
-.column {
-	float: left;
-	width: 200px;
-	padding: 20px;
-	margin: 0;
-}
-
-#column1 {
-  background-color: (255,255,255);
-}
-
-#column2 {
-  background-color: (255,255,255);
-}
-
-#column3 {
-  background-color: (255,255,255);
-}
-
-#column4 {
-  background-color: (255,255,255);
-}
 
 
 h1 {
