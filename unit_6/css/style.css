@@ -18,7 +18,10 @@ nav a {
 	font-size: 16px;
 }
 
-
+.container {
+    width: 1000px;
+    overflow: hidden;
+}
 
 .gallery {
 	float: left;
@@ -28,6 +31,11 @@ nav a {
 	clear: both;
 }
 
+.galleryItem {
+    float: left;
+    padding: 20px;
+    width: 280px;
+}
 
 
 h1 {
