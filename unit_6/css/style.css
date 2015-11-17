@@ -1,4 +1,38 @@
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
 
+
+.left-column {
+	float: left;
+	width: 20%;
+}
+
+.right-column {
+	float: left;
+	width: 80%;
+	padding-top: 30px;
+
+}
+
+.logoArea {
+
+	width: 100px;
+	padding: 50px;
+}
+
+.clearfix {
+	padding: 0px 0px 0px 35px;
+}
+
+.galleryItem {
+    float: left;
+    padding: 15px;
+    width: 29.4%;
+
+}
 
 nav {
 	background-color: (255,255,255);
@@ -18,25 +52,6 @@ nav a {
 	font-size: 16px;
 }
 
-.container {
-    width: 1000px;
-    overflow: hidden;
-}
-
-.gallery {
-	float: left;
-	width: 300px;
-	padding: 20px;
-	margin: 0;
-	clear: both;
-}
-
-.galleryItem {
-    float: left;
-    padding: 20px;
-    width: 280px;
-}
-
 
 h1 {
 	text-align: left;
@@ -46,7 +61,7 @@ h1 {
 	font-weight: normal;
 	text-transform: UPPERCASE;
 	letter-spacing: 2px;
-	padding: 40px;
+	padding: 20px;
 
 
 }
@@ -64,25 +79,15 @@ p {
 	line-height: 1.3em;
 }
 
-#slogan {
-	font-style: italic;
-	font-weight: 900;
-	text-align: center;
-	font-family: 'Playfair Display', serif;
-	font-size: 25px;
-}
-
-ul {
-	list-style: none;
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	text-align: center;
-	font-size: 16px;
-}
 
 a {
 	text-align: center;
 	font-size: 16px;
+}
+
+.text {
+	width: 60%;
+	padding-top: 20px;
 }
 
 .clearfix:after {
