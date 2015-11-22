@@ -19,7 +19,8 @@
 
 .logoArea {
 
-	width: 100px;
+	width: 100%;
+	max-width: 100px;
 	padding: 50px;
 }
 
@@ -46,10 +47,11 @@ nav a {
 	color: (0,0,0);
 	text-decoration: none;
 	display: block;
-	padding: 20px;
-	width: 200px;
+	width: 100%;
 	text-align: left;
 	font-size: 16px;
+	clear: both;
+	padding: 20px;
 }
 
 
