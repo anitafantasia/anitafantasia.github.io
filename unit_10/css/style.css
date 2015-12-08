@@ -1,0 +1,299 @@
+.container {
+    background-color: (255,255,255);
+    position: relative;
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0px 50px 0px;
+}
+
+.logoArea {
+	width: 100%;
+	max-width: 120px;
+	padding-left: 2.5%;
+	float: left;
+}
+
+.navigation {
+	float: right;
+	width: 70%;
+	padding-right: 2.5%;
+
+}
+
+.gallery-area {
+	float: left;
+	width: 100%;
+	padding-top: 38px;
+}
+
+.galleryItem {
+    float: left;
+    width: 28.33%;
+    padding: 2.5% 2.5% 0% 2.5%;
+}
+
+.projectItem {
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.project-text{
+    float: left;
+    width: 85%;
+    padding: 10%;
+}
+
+#column1-2 {
+    width: 63.66%;
+    float: left;
+}
+
+#column3-0 {
+    width: 36.34%;
+    float: left;
+}
+
+.footer-section {
+    width: 100%;
+    float: left;
+}
+
+
+.about-text {
+    margin-left: 2.5%;
+    float: left;
+    padding: 2.5%;
+    width: 56.66%;
+    background-color: rgb(240,240,240);
+}
+
+.contact-text {
+    float: left;
+    padding: 2.5%;
+    margin-left: 5%;
+    width: 23.34%;
+    background-color: rgb(240,240,240);
+}
+
+nav {
+	background-color: (255,255,255);
+	font-family: 'Raleway', sans-serif;
+	text-transform: Uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+
+nav a { 
+	background-color: (255,255,255);
+	color: (0,0,0);
+	text-decoration: none;
+	display: block;
+	width: auto;
+	text-align: center;
+	font-size: 1.25em;
+	padding: 81px 0px 81px 30px;
+	letter-spacing: 0.15em;
+	float: right;
+}
+
+
+h2 {
+	text-align: center;
+	color: (0,0,0);
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: UPPERCASE;
+	letter-spacing: 0.1em;
+	padding-top: 6%;
+	font-weight: 500;
+	line-height: 1.15em;
+}
+
+h1 {
+	text-align: left;
+	color: (0,0,0);
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	text-transform: UPPERCASE;
+	letter-spacing: 0.15em;
+	font-weight: 600;
+	line-height: 1.15em;
+}
+
+body {
+	background-color: (255,255,255);
+	text-align: left;
+}
+
+p {
+	color: (0,0,0);
+	text-align: left;
+	font-family: 'Playfair Display', 'georgia', serif;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+
+img:hover { 
+	opacity: 0.5;  
+} 
+
+hr { 
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-style: inset;
+    border-width: 1%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media only screen and (max-width: 1197px) {
+.galleryItem {
+    float: left;
+    width: 45%;
+    padding: 2.5% 2.5% 0% 2.5%;
+}
+  }
+
+ @media only screen and (max-width: 768px) {
+.galleryItem {
+    float: left;
+    width: 95%;
+    padding: 2.5% 2.5% 0% 2.5%;
+}
+
+h2 {
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+.about-text {
+    margin-left: 2.5%;
+    float: none;
+    padding: 2.5%;
+    width: 90%;
+}
+
+.contact-text {
+    float: none;
+    padding: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    width: 90%;
+}
+
+#column1-2 {
+    width: 95%;
+    float: left;
+}
+
+#column3-0 {
+    width: 95%;
+    float: left;
+}
+
+.projectItem {
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.project-text{
+    float: left;
+    width: 95%;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+  }
+
+   @media only screen and (max-width: 712px) {
+nav a { 
+	display: block;
+	width: auto;
+	text-align: right;
+	padding: 20px 0px 20px 30px;
+	float: none;
+}
+
+.navigation {
+	width: 40%;
+
+}
+
+   @media only screen and (max-width: 510px) {
+nav a { 
+
+	text-align: center;
+	padding: 20px 0px 20px 30px;
+	float: none;
+}
+
+.navigation {
+	width: 100%;
+
+}
+
+.logoArea {
+
+	padding-left: 35%;
+	padding-bottom: 10%;
+	float: none;
+}
+}
+
+   @media only screen and (max-width: 450px) {
+
+.logoArea {
+	padding-left: 31%;
+	padding-bottom: 10%;
+	float: none;
+}
+.navigation {
+	width: 100%;
+
+}
+}
+
+   @media only screen and (max-width: 350px) {
+
+.logoArea {
+	padding-left: 27%;
+	padding-bottom: 10%;
+	float: none;
+}
+.navigation {
+	width: 100%;
+
+}
+}
+
+ @media only screen and (max-width: 250px) {
+
+.logoArea {
+	padding-left: 17%;
+	padding-bottom: 10%;
+	float: none;
+}
+.navigation {
+	width: 100%;
+
+}
+}
